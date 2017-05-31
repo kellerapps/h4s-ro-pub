@@ -1,0 +1,77 @@
+body, h1, h2 {
+    font-family: sans-serif;
+}
+
+body {
+    font-size: 11pt;
+}
+
+.section {
+    margin-bottom: 1ex;
+}
+
+.appendix {
+    margin-bottom: 1ex;
+}
+
+a:link {
+    color: #0095DA;
+    text-decoration: none;
+}
+a:visited {
+    color: darkgray;
+    text-decoration: none;
+}
+a:hover {
+    color: #7bc141;
+    text-decoration: underline;
+}
+
+.subjectHeading {
+    color: #7bc141;
+    color: #0095DA;
+    font-size: larger;
+    font-style: italic;
+}
+
+.subjectHeading li {
+    color: black;
+    font-style: normal;
+}
+
+.feature {
+    color: black;
+    margin-bottom: 1ex;
+    width: 30ex;
+    display: inline;
+    padding: 1ex;
+}
+
+.heading {
+    font-size: smaller;
+    font-style: italic;
+    margin-bottom: 1ex;
+}
+
+.content {
+    font-size: 11pt;
+    font-family: sans-serif;
+    border-width: thin;
+}
+
+.content ol, .content ul {
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.content ol li, .content ul li {
+    padding: 0 0;
+    margin: 0 0;
+    margin-left: 4ex;
+}
+
+.consumable {
+    color: darkgrey;
+    font-size: smaller;
+    font-style: italic;
+}

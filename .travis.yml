@@ -1,0 +1,23 @@
+# Commits that have [ci skip] or [skip ci] anywhere in the commit messages are ignored by Travis CI.
+language: node_js
+node_js:
+  - "7"
+
+dist: trusty
+# use Docker instead of VM
+sudo: false
+
+#env:
+
+branches:
+    only:
+      - master
+
+install:
+  - npm install
+  - npm run build
+script:
+  - npm test
+
+#deploy:
+  #skip_cleanup: true

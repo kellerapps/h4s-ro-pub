@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "types": [
+      "jest-jquery-matchers",
+      "node"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
